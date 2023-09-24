@@ -11,7 +11,7 @@ Included 62+ beautiful terminal color scripts.
 - This is a fork of [Shell Color Scripts](https://gitlab.com/dwt1/shell-color-scripts) by Derek Taylor(@dwt1) from DistroTube YouTube channel. BIG thanks to him for showing his collection of shell scripts that gave me inspiration and a base code to create this repo.
 - Thanks, Abhishek (@stark) for letting me steal some of scripts from his [Color-Scripts](https://github.com/stark/Color-Scripts).
 - Thanks, Josh Komoroske (@joshdk) for the cool [hedgehogs](https://github.com/joshdk/hedgehogs) script.
-- 
+- Thanks, Edward (@edn9) for this cool animated [bomber-cli](https://github.com/edn9/bomber-cli) script.
 
 # Installation
 
