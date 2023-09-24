@@ -2,8 +2,8 @@
 
 ![Screenshot of shell-color-scripts](https://gitlab.com/dwt1/dotfiles/raw/master/.screenshots/dotfiles12.png)
 
-A collection of terminal color scripts I've accumulated over the years.
-Included 52+ beautiful terminal color scripts.
+A collection of terminal color scripts I've accumulated from github & gitlab.
+Included 62+ beautiful terminal color scripts.
 
 # Installation
 
