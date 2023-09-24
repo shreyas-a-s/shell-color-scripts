@@ -1,13 +1,14 @@
 # Shell Color Scripts
 
-![Screenshot of shell-color-scripts]()
+![Screenshot of shell-color-scripts](https://github.com/shreyas-a-s/shell-color-scripts/assets/137637016/13fe43a9-0917-4d42-ab94-89e590b26780)
+
 
 A collection of terminal color scripts I've accumulated from github & gitlab.
 Included 62+ beautiful terminal color scripts.
 
-# Installation
+# Acknowledgements
 
-- 
+- aa
 
 # Installation
 
