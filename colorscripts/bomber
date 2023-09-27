@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #by necro
+#modified by @shreyas-a-s
 e="\e[0m"
 bk="\e[38;2;1;1;1m"
 bl="\e[48;2;101;166;232m"
