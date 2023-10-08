@@ -2,6 +2,7 @@ clean:
 	rm -rf /opt/shell-color-scripts
 
 install: clean
+	bash title.sh
 	mkdir -p /opt/shell-color-scripts/colorscripts
 	cp -rf colorscripts/* /opt/shell-color-scripts/colorscripts
 	cp colorscript.sh /usr/local/bin/colorscript
