@@ -9,9 +9,9 @@ use Getopt::Long;
 use Text::Wrap;
 use POSIX;
 
-my $width = 10; # changed by @shreyas-a-s from 13 to 10 by @shreyas-a-s
+my $width = 10; # changed from 13 to 10 by @shreyas-a-s
 my $gap = 10;
-my $margin = 4; # changed by @shreyas-a-s from 2 to 4 by @shreyas-a-s
+my $margin = 4; # changed from 2 to 4 by @shreyas-a-s
 my $color = 'random'; # changed from yellow to random by @shreyas-a-s
 
 my @info;
