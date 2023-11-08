@@ -11,7 +11,7 @@ install: clean
 	mkdir -p /opt/shell-color-scripts/colorscripts
 	cp -rf colorscripts/* /opt/shell-color-scripts/colorscripts
 	cp colorscript.sh /usr/local/bin/colorscript
-	sudo apt-get -y install lolcat
+	apt-get -y install lolcat
 
 uninstall:
 	rm -rf /opt/shell-color-scripts
