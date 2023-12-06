@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if command -v neofetch > /dev/null; then
+  neofetch
+elif command -v pacman > /dev/null; then
+  echo "Neofetch is not installed. Install using sudo pacman -S neofetch"
+elif command -v apt > /dev/null; then
+  echo "Neofetch is not installed. Install using sudo apt install neofetch"
+else
+  echo "Neofetch is not installed."
+fi
+
