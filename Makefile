@@ -11,7 +11,11 @@ clean:
 install: clean
 	mkdir -p /opt/shell-color-scripts/colorscripts
 	cp -rf colorscripts/* /opt/shell-color-scripts/colorscripts
-	cp colorscript.sh /usr/local/bin/colorscript
+	@if command -v nix-env > /dev/null; then \
+	  nix-env -if ./colorscript.nix \
+	else \
+	  cp colorscript.sh /usr/local/bin/colorscript \
+	fi
 	@if command -v apt-get > /dev/null; then \
 		apt-get -y install lolcat; \
 	elif command -v pacman > /dev/null; then \
