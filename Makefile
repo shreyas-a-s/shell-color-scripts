@@ -20,6 +20,8 @@ install: clean
 		apt-get -y install lolcat; \
 	elif command -v pacman > /dev/null; then \
 		pacman -S lolcat --noconfirm; \
+	elif command -v nix-env > /dev/null; then \
+	  nix-env -iA nixos.lolcat; \
 	fi
 	@if [ -d /usr/share/zsh/site-functions ]; then \
 		sudo cp completions/_colorscript /usr/share/zsh/site-functions/; \
