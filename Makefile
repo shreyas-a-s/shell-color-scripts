@@ -22,6 +22,8 @@ install: clean
 		pacman -S lolcat --noconfirm; \
 	elif command -v nix-env > /dev/null; then \
 	  nix-env -iA nixos.lolcat; \
+	elif command -v dnf > /dev/null; then \
+		dnf install -y lolcat; \
 	fi
 	@if [ -d /usr/share/zsh/site-functions ]; then \
 		sudo cp completions/_colorscript /usr/share/zsh/site-functions/; \
