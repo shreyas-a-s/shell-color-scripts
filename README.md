@@ -12,7 +12,7 @@ Included 62+ beautiful terminal color scripts.
 - Thanks, Abhishek (@stark) for letting me steal some of scripts from his [Color-Scripts](https://github.com/stark/Color-Scripts).
 - Thanks, Josh Komoroske (@joshdk) for the cool [hedgehogs](https://github.com/joshdk/hedgehogs) script.
 - Thanks, Edward (@edn9) for this cool animated [bomber-cli](https://github.com/edn9/bomber-cli) script.
-- Thanks, Charitarth Chugh (@charitarthchugh) for some of the scriptsi in [shell-color-scripts](https://github.com/charitarthchugh/shell-color-scripts) script.
+- Thanks, Charitarth Chugh (@charitarthchugh) for some of the scripts in [shell-color-scripts](https://github.com/charitarthchugh/shell-color-scripts) script.
 
 # Installation
 
